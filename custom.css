@@ -1,0 +1,120 @@
+@charset "UTF-8";
+ul.socialmedia {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+ul.socialmedia li {
+  display: inline;
+  margin: 0px;
+  padding: 3px;
+  line-height: 56px;
+}
+body {
+  background-color: #E0E9EE;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  padding-bottom: 10px;
+  color: #010B40;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #343A40;
+}
+.band {
+  padding-left: 160px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #010B40;
+}
+video {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+h4 {
+  color: #E0E9EE;
+  font-size: 20px;
+}
+.calend {
+  font-size: 30px;
+  font-weight: 400;
+  color: #010B40;
+}
+.container.pb-5 .table.table-hover {}
+table {
+  background-color: #EBF2F5;
+}
+th {
+  background-color: #313B71;
+}
+table.calendar td {
+  color: #010626;
+}
+.photos {
+  font-size: 30px;
+  font-weight: 400;
+  color: #010B40;
+}
+.figure-caption {
+  color: #732002;
+}
+.contact {
+  font-size: 30px;
+  font-weight: 400;
+  color: #010B40;
+}
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #732002;
+  border-bottom: dashed 1px #010626;
+}
+.email a {
+  color: #F24F13;
+}
+.email a:hover {
+  color: #010B40;
+}
+a {
+  color: #732002;
+}
+a:hover {
+  color: #F24F13;
+}
+h3 {
+  color: #010B40;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: dashed 1px #010626;
+  padding-top: 10px;
+}
+ul {
+  list-style-type: square;
+}
+.links {
+  font-size: 30px;
+  font-weight: 400;
+  color: #010B40;
+}
+@media (max-width: 767px) {
+  #logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
